@@ -1,8 +1,9 @@
-@import "partials/colors";
+@import "settings";
+
 .chat {
   &-box {
     border: 5px solid $primary-color;
-    border-radius: 5px;
+    border-radius: 25px;
     width: 90%;
     height: 70%;
     padding: 40px;
@@ -30,15 +31,11 @@
       width: 70%;
       background-color: $gray;
       color: $primary-color;
-      border-radius: 10px;
+      border-radius: 15px;
       border: 2px solid $primary-color;
       padding: 5px;
       text-align: justify;
     }
-  }
-
-  &-send-btn {
-    background-color: $primary-color;
   }
 
   &-user {
@@ -46,6 +43,10 @@
   }
 }
 
-.navbar-color {
+.background-with-primary {
   background-color: $primary-color;
+}
+
+.color-with-primary {
+  color: $primary-color;
 }
