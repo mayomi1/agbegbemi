@@ -1,0 +1,47 @@
+@import "partials/colors";
+.chat {
+  &-box {
+    border: 5px solid $primary-color;
+    border-radius: 5px;
+    width: 70%;
+    height: 70%;
+    padding: 40px;
+  }
+
+  &-input {
+    padding: 5px;
+  }
+
+  &-avatar{
+    color: $white;
+    font-size: 30px;
+    padding: 10px;
+
+    &-circle {
+      background: $primary-color;
+      width: 50px;
+      height: 50px;
+      border-radius: 50%;
+    }
+  }
+
+  &-agbegbemi {
+    &-box {
+      width: 70%;
+      background-color: $gray;
+      color: $primary-color;
+      border-radius: 10px;
+      border: 2px solid $primary-color;
+      padding: 5px;
+      text-align: justify;
+    }
+  }
+
+  &-send-btn {
+    background-color: $primary-color;
+  }
+
+  &-user {
+    margin-top: 20px;
+  }
+}

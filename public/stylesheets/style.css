@@ -1,0 +1,36 @@
+.chat-box {
+  border: 5px solid #68331a;
+  border-radius: 5px;
+  width: 70%;
+  height: 70%;
+  padding: 40px; }
+
+.chat-input {
+  padding: 5px; }
+
+.chat-avatar {
+  color: #fff;
+  font-size: 30px;
+  padding: 10px; }
+  .chat-avatar-circle {
+    background: #68331a;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%; }
+
+.chat-agbegbemi-box {
+  width: 70%;
+  background-color: #e9ecef;
+  color: #68331a;
+  border-radius: 10px;
+  border: 2px solid #68331a;
+  padding: 5px;
+  text-align: justify; }
+
+.chat-send-btn {
+  background-color: #68331a; }
+
+.chat-user {
+  margin-top: 20px; }
+
+/*# sourceMappingURL=style.css.map */
