@@ -1,7 +1,7 @@
 .chat-box {
   border: 5px solid #68331a;
   border-radius: 5px;
-  width: 70%;
+  width: 90%;
   height: 70%;
   padding: 40px; }
 
@@ -32,5 +32,8 @@
 
 .chat-user {
   margin-top: 20px; }
+
+.navbar-color {
+  background-color: #68331a; }
 
 /*# sourceMappingURL=style.css.map */
